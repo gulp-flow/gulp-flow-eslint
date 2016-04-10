@@ -1,0 +1,43 @@
+{
+  "name": "gulp-flow-eslint",
+  "version": "1.0.0",
+  "description": "JS bundle for ESLINT.",
+  "main": "./src/index.js",
+  "keywords": [
+    "gulp",
+    "gulpfriendly",
+    "gulp-flow-bundle",
+    "workflow",
+    "task",
+    "plugin",
+    "bundle",
+    "eslint",
+    "js"
+  ],
+  "homepage": "https://github.com/gulp-flow/gulp-flow-eslint",
+  "author": {
+    "name": "Nicolas Tallefourtane",
+    "url": "http://nicolab.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gulp-flow/gulp-flow-eslint.git"
+  },
+  "bugs": "https://github.com/gulp-flow/gulp-flow-eslint/issues",
+  "dependencies": {
+    "babel-eslint": "^4.1.8",
+    "eslint": "^2.1.0",
+    "eslint-config-common": "^0.1.0",
+    "eslint-loader": "^1.2.1",
+    "eslint-plugin-promise": "^1.0.8",
+    "eslint-plugin-react": "^3.16.1",
+    "eslint-plugin-standard": "^1.3.1"
+  },
+  "peerDependencies": {
+    "gulp-flow": "1"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
