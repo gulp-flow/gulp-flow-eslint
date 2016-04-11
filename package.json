@@ -1,7 +1,7 @@
 {
   "name": "gulp-flow-eslint",
-  "version": "1.0.0",
-  "description": "JS bundle for ESLINT.",
+  "version": "1.0.1",
+  "description": "ESLint bundle for gulp-flow.",
   "main": "./src/index.js",
   "keywords": [
     "gulp",
