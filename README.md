@@ -1,6 +1,6 @@
 # gulp-flow-eslint
 
-JS bundle for [gulp-flow](https://github.com/gulp-flow/gulp-flow).
+ESLint bundle for [gulp-flow](https://github.com/gulp-flow/gulp-flow).
 
 
 ## Requirements
