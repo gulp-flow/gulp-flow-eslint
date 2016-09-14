@@ -1,6 +1,6 @@
 {
   "name": "gulp-flow-eslint",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ESLint bundle for gulp-flow.",
   "main": "./src/index.js",
   "keywords": [
@@ -26,14 +26,14 @@
   },
   "bugs": "https://github.com/gulp-flow/gulp-flow-eslint/issues",
   "dependencies": {
-    "babel-eslint": "^4.1.8",
-    "eslint": "^2.1.0",
-    "eslint-config-common": "^1.0.0",
-    "eslint-config-standard-react": "^2.3.0",
-    "eslint-loader": "^1.2.1",
-    "eslint-plugin-promise": "^1.0.8",
-    "eslint-plugin-react": "^3.16.1",
-    "eslint-plugin-standard": "^1.3.1"
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.5.0",
+    "eslint-config-common": "^2.0.0",
+    "eslint-config-standard-react": "^4.0.1",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-react": "^6.2.1",
+    "eslint-plugin-standard": "^2.0.0"
   },
   "peerDependencies": {
     "gulp-flow": "1"
