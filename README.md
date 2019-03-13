@@ -5,8 +5,8 @@ ESLint bundle for [gulp-flow](https://github.com/gulp-flow/gulp-flow).
 
 ## Requirements
 
- * [gulp-flow](https://github.com/gulp-flow/gulp-flow) must be installed.
- * [gulp-flow-webpack](https://github.com/gulp-flow/gulp-flow-webpack) must be installed.
+* [gulp-flow](https://github.com/gulp-flow/gulp-flow) must be installed.
+* [gulp-flow-webpack](https://github.com/gulp-flow/gulp-flow-webpack) must be installed.
 
 
 ## Install
@@ -18,9 +18,10 @@ npm install --save-dev gulp-flow-eslint
 
 ## Usage
 
-This bundle configure `cfg.webpack`.
+This bundle configure `cfg.webpack` and add a rule to `cfg.webpack.module.rules`.
 
 ### Task
+
 A simple example:
 
 _gulpfile.js_
@@ -29,7 +30,7 @@ require('gulp-flow-webpack');
 require('gulp-flow-eslint');
 ```
 
-That's all! You can run your build task.
+That's all! You can run your tasks.
 
 
 ## LICENSE
@@ -39,7 +40,7 @@ That's all! You can run your build task.
 
 ## Author
 
-| [![Nicolas Tallefourtane - Nicolab.net](http://www.gravatar.com/avatar/d7dd0f4769f3aa48a3ecb308f0b457fc?s=64)](http://nicolab.net) |
+| [![Nicolas Tallefourtane - Nicolab.net](http://www.gravatar.com/avatar/d7dd0f4769f3aa48a3ecb308f0b457fc?s=64)](https://nicolab.net) |
 |---|
-| [Nicolas Talle](http://nicolab.net) |
+| [Nicolas Talle](https://nicolab.net) |
 | [![Make a donation via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PGRH4ZXP36GUC) |
