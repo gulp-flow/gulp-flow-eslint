@@ -1,3 +1,8 @@
 {
   "extends": ["common", "common-react"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

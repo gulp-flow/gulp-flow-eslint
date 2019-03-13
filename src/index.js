@@ -13,15 +13,18 @@
 let flow = require('gulp-flow');
 let {cfg} = flow;
 
-cfg.webpack.eslint = {
-  configFile: '.eslintrc',
-  emitWarning: true
+cfg.eslint = {
+  options : {
+    configFile: '.eslintrc',
+    emitWarning: true
+  }
 };
 
 cfg.webpack.module.rules.push({
   enforce: 'pre',
   test: /\.jsx?$/,
   exclude: /node_modules/,
-  loader: 'eslint-loader'
+  loader: 'eslint-loader',
+  options: cfg.eslint.options
 });
 

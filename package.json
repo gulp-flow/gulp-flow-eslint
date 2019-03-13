@@ -1,6 +1,6 @@
 {
   "name": "gulp-flow-eslint",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "ESLint bundle for gulp-flow.",
   "main": "./src/index.js",
   "keywords": [
@@ -26,6 +26,7 @@
   },
   "bugs": "https://github.com/gulp-flow/gulp-flow-eslint/issues",
   "dependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5",
     "eslint-config-common": "^3.0.1",
     "eslint-config-common-react": "^1.0.2",
