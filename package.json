@@ -17,7 +17,7 @@
   "homepage": "https://github.com/gulp-flow/gulp-flow-eslint",
   "author": {
     "name": "Nicolas Tallefourtane",
-    "url": "http://nicolab.net"
+    "url": "https://nicolab.net"
   },
   "license": "MIT",
   "repository": {
@@ -26,20 +26,19 @@
   },
   "bugs": "https://github.com/gulp-flow/gulp-flow-eslint/issues",
   "dependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.19.1",
-    "eslint-config-common": "^3.0.0",
+    "eslint": "^5",
+    "eslint-config-common": "^3.0.1",
     "eslint-config-common-react": "^1.0.2",
-    "eslint-loader": "^2.0.0",
+    "eslint-loader": "^2.1.2",
     "eslint-plugin-perf-standard": "^1.0.3",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-react": ">=7.7.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "eslint-plugin-import": "^2.10.0",
-    "eslint-plugin-node": "^6.0.1"
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": ">=7.12.4",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1"
   },
   "peerDependencies": {
-    "gulp-flow": "1"
+    "gulp-flow": ">=2 <3"
   },
   "engines": {
     "node": ">= 8"

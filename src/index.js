@@ -18,4 +18,10 @@ cfg.webpack.eslint = {
   emitWarning: true
 };
 
-cfg.webpack.module.preLoaders[0].loader = 'eslint';
+cfg.webpack.module.rules.push({
+  enforce: 'pre',
+  test: /\.jsx?$/,
+  exclude: /node_modules/,
+  loader: 'eslint-loader'
+});
+
