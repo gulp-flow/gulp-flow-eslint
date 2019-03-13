@@ -18,7 +18,10 @@ npm install --save-dev gulp-flow-eslint
 
 ## Usage
 
-This bundle configure `cfg.webpack` and add a rule to `cfg.webpack.module.rules`.
+This bundle configure `cfg.webpack` and adds:
+
+* a rule to `cfg.webpack.module.rules`.
+* `cfg.eslint.options` (passed to the Webpack rule).
 
 ### Task
 
